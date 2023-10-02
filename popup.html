@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>HelpMeOut Screen Recorder</title>
+  </head>
+  <body class="rounded-3xl bg-none">
+    <div class="bg-white w-[300px] p-6 pb-8 rounded-3xl">
+      <div class="flex items-center justify-between mb-4">
+        <div class=""><img src="./assets/icons/logo.svg" alt="Logo" /></div>
+        <div class="flex items-center gap-3">
+          <div class="">
+            <img src="./assets/icons/setting.svg" alt="Settings Svg" />
+          </div>
+          <div class="">
+            <img src="./assets/icons/close.svg" alt="Close Svg" />
+          </div>
+        </div>
+      </div>
+
+      <p class="mb-8 text-sm w-[225px] text-[#413C6D]">
+        This extension helps you record and share help videos with ease.
+      </p>
+
+      <div class="flex items-center mx-8 justify-between mb-6">
+        <div class="flex flex-col items-center gap-2 text-[#928FAB] font-[500]">
+          <img
+            src="./assets/icons/monitor.svg"
+            class="h-8 w-8"
+            alt="Monitor Svg"
+          />
+          Full screen
+        </div>
+        <div class="flex flex-col items-center gap-2 text-[#120B48] font-[600]">
+          <img src="./assets/icons/copy.svg" class="h-8 w-8" alt="Copy Svg" />
+          Current Tab
+        </div>
+      </div>
+
+      <div class="">
+        <div
+          class="mb-6 flex items-center justify-between p-3 pl-4 rounded-xl border border-[#100A42]"
+        >
+          <div
+            class="text-sm font-[500] flex gap-2 items-center text-[#100A42]"
+          >
+            <img src="./assets/icons/camera.svg" alt="Camera Svg" />
+            Camera
+          </div>
+          <img src="./assets/icons/toggle.svg" alt="Toggle Svg" />
+        </div>
+        <div
+          class="mb-6 flex items-center justify-between p-3 pl-4 rounded-xl border border-[#100A42]"
+        >
+          <div
+            class="text-sm font-[500] flex gap-2 items-center text-[#100A42]"
+          >
+            <img src="./assets/icons/microphone.svg" alt="Microphone Svg" />
+            Audio
+          </div>
+          <img src="./assets/icons/toggle.svg" alt="Toggle Svg" />
+        </div>
+      </div>
+
+      <button
+        class="p-4 rounded-xl mx-auto text-[#FAFDFF] text-base bg-[#120B48] w-full flex items-center text-center justify-center font-[500]"
+      >
+        Start Recording
+      </button>
+    </div>
+
+    <script src="./js/popup.js"></script>
+  </body>
+</html>
